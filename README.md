@@ -20,5 +20,9 @@ $ flutter run
 # What I Learned
 [x] Set custom colors at project using hexadecimal (to use hexadecimal colors, you need turn "#" into a integer character (`0xFF`), because Flutter do not recognize this symbol)
 
+[x] Set custom fonts with `google_fonts` package
+
+[x] Install a package into project
+
 
 [figma]: https://www.figma.com/community/file/991337911070600335/PayFlow
