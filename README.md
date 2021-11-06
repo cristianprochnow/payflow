@@ -24,5 +24,7 @@ $ flutter run
 
 [x] Install a package into project
 
+[x] Use custom assets in project
+
 
 [figma]: https://www.figma.com/community/file/991337911070600335/PayFlow
