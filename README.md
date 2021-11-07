@@ -41,4 +41,18 @@ Stack is a component that allows you to insert a widget above other one. The cas
 
 Like the `position` property from CSS, this widget follow the same principle. Using settings as `top`, `right`, `bottom` and `left`, it offer to you a quick form to center and align elements regardless of your layer.
 
+### `Padding()` and `Expanded()`
+
+Widgets that customize spacement of widgets. A quick way to set space between these elements.
+
+### `InkWell()`
+
+Widget that can be used to represent button functionalities, giving to you the oportunity to create several button types.
+
+> `GestureDetector()` seem equal to this widget, but offer a lot more events to handle.
+
+### `BoxDecoration()`, `BoxShadow()`, `Border()` and `BorderRadius`
+
+Elements focused to custom box appearance, and then your able to add several styles to a simple container, transforming the way you create a custom component.
+
 [figma]: https://www.figma.com/community/file/991337911070600335/PayFlow
