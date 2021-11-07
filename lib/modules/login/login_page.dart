@@ -45,7 +45,20 @@ class _LoginPageState extends State<LoginPage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    Image.asset(AppImages.logoMini),
+                    Container(
+                      width: 208,
+                      decoration: BoxDecoration(boxShadow: [
+                        BoxShadow(
+                            color: AppColors.background,
+                            blurRadius: 32,
+                            offset: Offset(0, -20),
+                            spreadRadius: 64)
+                      ]),
+                      child: Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Image.asset(AppImages.logoMini),
+                      ),
+                    ),
                     Padding(
                       padding: const EdgeInsets.only(
                           top: 24, right: 72, left: 72, bottom: 12),
