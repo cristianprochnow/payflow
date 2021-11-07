@@ -9,11 +9,13 @@ class SplashPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.background,
-      body: Stack(
-        children: [
-          Image.asset(AppImages.union),
-          Image.asset(AppImages.logoFull)
-        ],
+      body: Center(
+        child: Stack(
+          children: [
+            Center(child: Image.asset(AppImages.union)),
+            Center(child: Image.asset(AppImages.logoFull))
+          ],
+        ),
       ),
     );
   }

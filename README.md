@@ -37,4 +37,8 @@ $ flutter run
 
 Stack is a component that allows you to insert a widget above other one. The case needed for this app, for example, is at Splash Screen, where we must insert a image above other image, to complete the logo.
 
+### `Positionated()`
+
+Like the `position` property from CSS, this widget follow the same principle. Using settings as `top`, `right`, `bottom` and `left`, it offer to you a quick form to center and align elements regardless of your layer.
+
 [figma]: https://www.figma.com/community/file/991337911070600335/PayFlow
