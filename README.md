@@ -28,6 +28,7 @@ $ flutter run
 ## Packages
 
 - [x] Install a package into project
+- [x] Set Firebase functionalities for Android app
 
 ## Widgets
 
