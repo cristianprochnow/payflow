@@ -29,6 +29,8 @@ $ flutter run
 
 - [x] Install a package into project
 - [x] Set Firebase functionalities for Android app
+- [x] Install packages needed for social login with Google
+- [x] Configure and use social login with Google
 
 ## Widgets
 
