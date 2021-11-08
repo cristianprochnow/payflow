@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:payflow/app_widget.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:payflow/modules/splash/splash_page.dart';
 
 void main() {
   runApp(AppFirebase());
@@ -35,11 +36,7 @@ class _AppFirebaseState extends State<AppFirebase> {
           return AppWidget();
         }
 
-        return Material(
-          child: Center(
-            child: CircularProgressIndicator(),
-          ),
-        );
+        return SplashPage();
       },
     );
   }
