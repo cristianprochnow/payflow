@@ -36,7 +36,9 @@ class _AppFirebaseState extends State<AppFirebase> {
           return AppWidget();
         }
 
-        return SplashPage();
+        return MaterialApp(
+          home: SplashPage(),
+        );
       },
     );
   }

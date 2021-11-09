@@ -32,6 +32,11 @@ $ flutter run
 - [x] Install packages needed for social login with Google
 - [x] Configure and use social login with Google
 
+## Concepts
+
+### `_variable`
+Insert `_` before variables is a semantic way to define class variables as private. They have not private strict behavior, perhaps it is a good way to turn it distinct from rest.
+
 ## Widgets
 
 ### `Stack()`
