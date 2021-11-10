@@ -22,20 +22,25 @@ class AuthController {
     }
   }
 
-  Future<void> saveUser(var user) async {
+  Future<void> saveUser(UserModel user) async {
     final sharedPreferencesInstance = await SharedPreferences.getInstance();
 
-    await sharedPreferencesInstance.setString('user', user);
+    await sharedPreferencesInstance.setString('user', user.toJson());
 
     return;
   }
 
   Future<void> hasCurrentUser(BuildContext context) async {
     final sharedPreferencesInstance = await SharedPreferences.getInstance();
-    final user = sharedPreferencesInstance.get('user');
 
-    setUser(context, user);
+    if (sharedPreferencesInstance.containsKey('user')) {
+      final jsonResponse = sharedPreferencesInstance.get('user') as String;
 
-    return;
+      setUser(context, UserModel.fromJson(jsonResponse));
+
+      return;
+    } else {
+      setUser(context, null);
+    }
   }
 }
